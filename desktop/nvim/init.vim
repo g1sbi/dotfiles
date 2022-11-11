@@ -2,10 +2,10 @@ call plug#begin()
 
 Plug 'thedenisnikulin/vim-cyberpunk'
 Plug 'sheerun/vim-polyglot'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'puremourning/vimspector'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
-Plug 'https://github.com/preservim/nerdtree', { 'on': 'NERDTreeToggle'}
+Plug 'https://github.com/preservim/nerdtree', { 'on': 'NERDTreeToggle'} |
+	\ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jiangmiao/auto-pairs'
 Plug 'maxboisvert/vim-simple-complete'
 Plug 'vim-airline/vim-airline'
@@ -16,6 +16,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'alvan/vim-closetag'
 Plug 'ap/vim-css-color'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'bryanmylee/vim-colorscheme-icons'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
+Plug 'yassinebridi/vim-purpura'
 call plug#end()
 
 set nocompatible
@@ -28,13 +33,20 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48:2;%lu;%lu;%lum"
 
 "self closing tags
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx'
-let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.tsx'
+let g:closetag_xhtml_filenames = '*.xhtml,*.jsx, *.tsx'
 let g:closetag_shortcut = '>'
 
 "keybinds
 map <C-s> :Files<CR>
 
 "themes
-colorscheme cyberpunk
-let g:airline_theme="hybrid"
+colorscheme purpura 
+let g:airline_theme="purpura"
+
+" Start NERDTree and put the cursor back in the other window.
+silent! autocmd VimEnter * NERDTree | wincmd p
+
+"Close NERDTree on file close
+silent! autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") 
+			\ && b:NERDTree.isTabTree()) | q | endif
