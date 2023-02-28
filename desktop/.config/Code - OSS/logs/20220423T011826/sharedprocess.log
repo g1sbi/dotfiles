@@ -1,0 +1,29 @@
+[2022-04-23 01:18:28.265] [sharedprocess] [info] Starting worker process with pid 326812 (type: fileWatcher, window: 1).
+[2022-04-23 01:18:31.194] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-04-23 01:18:31.194] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-04-23 01:18:32.073] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-04-23 01:18:32.641] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-04-23 01:18:34.044] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/gisbi/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.17
+[2022-04-23 01:18:34.064] [sharedprocess] [info] Extracted extension to /home/gisbi/.vscode-oss/extensions/.a52adb00-38dd-44d2-9ffc-ee3a432e0aa3: ms-vscode.js-debug-companion
+[2022-04-23 01:18:34.066] [sharedprocess] [info] Renamed to /home/gisbi/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-04-23 01:18:34.067] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-04-23 01:18:34.069] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-04-23 01:18:36.754] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/gisbi/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-04-23 01:18:36.767] [sharedprocess] [info] Extracted extension to /home/gisbi/.vscode-oss/extensions/.c38bcbfa-3d0d-41e5-90a0-13fb6423386f: ms-vscode.references-view
+[2022-04-23 01:18:36.770] [sharedprocess] [info] Renamed to /home/gisbi/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-04-23 01:18:36.772] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-04-23 01:18:36.773] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-04-23 01:19:02.834] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-04-23 01:19:02.905] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-04-23 01:19:03.265] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-23 01:19:08.001] [sharedprocess] [info] Getting Manifest... esbenp.prettier-vscode
+[2022-04-23 01:19:08.076] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-04-23 01:19:09.106] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-04-23 01:19:10.016] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2022-04-23 01:19:10.962] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-23 01:19:10.962] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-04-23 01:19:10.962] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2022-04-23 01:19:16.822] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/gisbi/.config/Code - OSS/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2022-04-23 01:19:16.835] [sharedprocess] [info] Extracted extension to /home/gisbi/.vscode-oss/extensions/.b722a826-7390-4381-abf0-4acdce56d5fd: ms-toolsai.jupyter-keymap
+[2022-04-23 01:19:16.837] [sharedprocess] [info] Renamed to /home/gisbi/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2022-04-23 01:19:16.838] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-keymap

@@ -1,0 +1,102 @@
+[2022-06-16 21:39:33.090] [error] {
+  response: {
+    ErrorModel: {
+      Message: 'Username or password is incorrect. Try again',
+      Object: 'error'
+    },
+    ExceptionMessage: null,
+    ExceptionStackTrace: null,
+    InnerExceptionMessage: null,
+    Message: 'Username or password is incorrect. Try again',
+    Object: 'error',
+    ValidationErrors: { '': [ 'Username or password is incorrect. Try again' ] },
+    error: '',
+    error_description: ''
+  },
+  message: 'Username or password is incorrect. Try again',
+  captchaRequired: false,
+  statusCode: 400
+}
+[2022-06-16 21:39:33.093] [error] Received API exception: [object Object]
+[2022-06-16 21:39:36.584] [error] {
+  response: {
+    ErrorModel: {
+      Message: 'Username or password is incorrect. Try again',
+      Object: 'error'
+    },
+    ExceptionMessage: null,
+    ExceptionStackTrace: null,
+    InnerExceptionMessage: null,
+    Message: 'Username or password is incorrect. Try again',
+    Object: 'error',
+    ValidationErrors: { '': [ 'Username or password is incorrect. Try again' ] },
+    error: '',
+    error_description: ''
+  },
+  message: 'Username or password is incorrect. Try again',
+  captchaRequired: false,
+  statusCode: 400
+}
+[2022-06-16 21:39:36.585] [error] Received API exception: [object Object]
+[2022-06-16 21:39:40.593] [info]  search indexing: 0.0412203ms
+[2022-06-16 21:39:40.846] [info]  search indexing: 3.0985885ms
+[2022-06-24 13:55:40.117] [info]  search indexing: 3.2898681ms
+[2022-06-25 14:18:49.969] [info]  search indexing: 3.1916181ms
+[2022-07-02 11:20:36.148] [info]  search indexing: 3.4114886ms
+[2022-07-05 18:16:53.270] [info]  search indexing: 0.0552871ms
+[2022-07-05 18:16:53.635] [info]  search indexing: 3.4389372ms
+[2022-07-24 00:20:08.622] [info]  search indexing: 3.7227255ms
+[2022-07-27 22:48:36.420] [info]  search indexing: 3.35668ms
+[2022-07-30 00:11:58.534] [error] Error: Cannot start a HubConnection that is not in the 'Disconnected' state.
+    at e.<anonymous> (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935611)
+    at file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:933486
+    at Object.next (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:933591)
+    at file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:932527
+    at new e (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1686337)
+    at U (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:932301)
+    at e.startWithStateTransitions (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935457)
+    at e.start (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935354)
+    at useClass.<anonymous> (file:///usr/lib/bitwarden/app.asar/app/main.js:1:1129238)
+    at Generator.next (<anonymous>)
+[2022-07-30 00:11:58.703] [error] TypeError: Failed to fetch
+    at file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1688943
+    at D.i.<computed> (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1682530)
+    at useClass.nativeFetch (file:///usr/lib/bitwarden/app.asar/app/main.js:1:1097446)
+    at useClass.<anonymous> (file:///usr/lib/bitwarden/app.asar/app/main.js:1:1097406)
+    at Generator.next (<anonymous>)
+    at o (file:///usr/lib/bitwarden/app.asar/app/main.js:1:751692)
+    at e.invoke (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1674783)
+    at Object.onInvoke (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:633948)
+    at e.invoke (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1674723)
+    at t.run (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1669863)
+[2022-07-30 00:11:58.743] [info]  search indexing: 3.8027049ms
+[2022-09-01 16:44:46.672] [info]  search indexing: 3.981912ms
+[2022-09-14 23:50:42.614] [info]  search indexing: 3.5921292ms
+[2022-09-14 23:52:41.140] [info]  search indexing: 3.2989168ms
+[2022-09-14 23:52:41.304] [info]  search indexing: 3.6420069ms
+[2022-09-15 00:00:02.986] [info]  search indexing: 4.2166311ms
+[2022-09-15 12:18:37.625] [info]  search indexing: 3.9886448ms
+[2022-09-15 12:25:46.929] [error] Error: Cannot start a HubConnection that is not in the 'Disconnected' state.
+    at e.<anonymous> (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935611)
+    at file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:933486
+    at Object.next (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:933591)
+    at file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:932527
+    at new e (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:1686458)
+    at U (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:932301)
+    at e.startWithStateTransitions (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935457)
+    at e.start (file:///usr/lib/bitwarden/app.asar/app/vendor.js:2:935354)
+    at useClass.<anonymous> (file:///usr/lib/bitwarden/app.asar/app/main.js:1:1153965)
+    at Generator.next (<anonymous>)
+[2022-09-15 12:25:47.147] [info]  search indexing: 4.0870561ms
+[2022-09-15 12:27:06.099] [info]  search indexing: 4.0396279ms
+[2022-09-15 12:27:23.116] [info]  search indexing: 3.7460147ms
+[2022-09-15 12:27:23.395] [info]  search indexing: 3.7174035ms
+[2022-09-15 14:43:23.191] [info]  search indexing: 3.4718345ms
+[2022-09-20 23:28:40.678] [info]  search indexing: 4.1868139ms
+[2022-09-29 19:19:33.914] [info]  Finished search indexing
+[2022-10-03 21:44:54.624] [info]  Finished search indexing
+[2022-10-03 21:49:55.775] [info]  Finished search indexing
+[2022-10-11 21:17:35.758] [info]  Finished search indexing
+[2022-10-11 21:20:45.284] [info]  Finished search indexing
+[2022-10-11 21:40:36.953] [info]  Finished search indexing
+[2022-11-05 00:42:21.820] [info]  Finished search indexing

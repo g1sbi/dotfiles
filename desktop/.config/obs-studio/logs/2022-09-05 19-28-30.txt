@@ -1,0 +1,109 @@
+19:28:30.041: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+19:28:30.041: CPU Speed: 4009.583MHz
+19:28:30.042: Physical Cores: 6, Logical Cores: 12
+19:28:30.042: Physical Memory: 32043MB Total, 5864MB Free
+19:28:30.042: Kernel Version: Linux 5.19.5-arch1-1
+19:28:30.042: Distribution: "Arch Linux" Unknown
+19:28:30.042: Session Type: x11
+19:28:30.042: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:28:30.042: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+19:28:30.042: Portable mode: false
+19:28:30.111: OBS 27.2.4-2 (linux)
+19:28:30.111: ---------------------------------
+19:28:30.111: ---------------------------------
+19:28:30.111: audio settings reset:
+19:28:30.111: 	samples per sec: 48000
+19:28:30.111: 	speakers:        2
+19:28:30.113: ---------------------------------
+19:28:30.113: Initializing OpenGL...
+19:28:30.256: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+19:28:30.256: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.65.01, shading language 3.30 NVIDIA via Cg compiler
+19:28:30.269: ---------------------------------
+19:28:30.269: video settings reset:
+19:28:30.269: 	base resolution:   2560x1440
+19:28:30.269: 	output resolution: 1920x1080
+19:28:30.269: 	downscale filter:  Bicubic
+19:28:30.269: 	fps:               60/1
+19:28:30.269: 	format:            NV12
+19:28:30.269: 	YUV mode:          709/Partial
+19:28:30.270: NV12 texture support not available
+19:28:30.270: Audio monitoring device:
+19:28:30.270: 	name: Default
+19:28:30.270: 	id: default
+19:28:30.270: ---------------------------------
+19:28:30.273: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:28:30.275: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:28:30.355: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:28:30.356: No blackmagic support
+19:28:30.361: v4l2loopback not installed, virtual camera disabled
+19:28:30.364: NVENC supported
+19:28:30.364: FFMPEG VAAPI supported
+19:28:30.368: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+19:28:30.368: 
+19:28:30.368: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+19:28:30.369: ---------------------------------
+19:28:30.369:   Loaded Modules:
+19:28:30.369:     text-freetype2.so
+19:28:30.369:     rtmp-services.so
+19:28:30.369:     obs-x264.so
+19:28:30.369:     obs-transitions.so
+19:28:30.369:     obs-outputs.so
+19:28:30.369:     obs-libfdk.so
+19:28:30.369:     obs-filters.so
+19:28:30.369:     obs-ffmpeg.so
+19:28:30.369:     linux-v4l2.so
+19:28:30.369:     linux-pulseaudio.so
+19:28:30.369:     linux-jack.so
+19:28:30.369:     linux-decklink.so
+19:28:30.369:     linux-capture.so
+19:28:30.369:     linux-alsa.so
+19:28:30.369:     image-source.so
+19:28:30.369:     frontend-tools.so
+19:28:30.369:     decklink-ouput-ui.so
+19:28:30.369:     decklink-captions.so
+19:28:30.369: ---------------------------------
+19:28:30.369: ==== Startup complete ===============================================
+19:28:30.407: All scene data cleared
+19:28:30.407: ------------------------------------------------
+19:28:30.408: pulse-input: Server name: 'pulseaudio 16.1'
+19:28:30.408: pulse-input: Audio format: s16le, 44100 Hz, 8 channels
+19:28:30.408: pulse-input: Started recording from 'alsa_output.usb-Sennheiser_GSX_1000_Main_Audio_5698800406000510-00.analog-output-surround71.monitor'
+19:28:30.408: [Loaded global audio device]: 'Desktop Audio'
+19:28:30.421: pulse-input: Server name: 'pulseaudio 16.1'
+19:28:30.421: pulse-input: Audio format: s16le, 16000 Hz, 1 channels
+19:28:30.421: pulse-input: Started recording from 'alsa_input.usb-Sennheiser_GSX_1000_Main_Audio_5698800406000510-00.analog-input'
+19:28:30.421: [Loaded global audio device]: 'Mic/Aux'
+19:28:30.422: xshm-input: Geometry 2560x1440 @ 0,0
+19:28:30.422: Switched to scene 'Scene'
+19:28:30.422: ------------------------------------------------
+19:28:30.422: Loaded scenes:
+19:28:30.422: - scene 'Scene':
+19:28:30.422:     - source: 'Screen Capture (XSHM)' (xshm_input)
+19:28:30.422: ------------------------------------------------
+19:28:30.976: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:28:30.976: 
+19:28:40.075: ---------------------------------
+19:28:40.075: [NVENC encoder: 'simple_h264_recording'] settings:
+19:28:40.075: 	rate_control: CQP
+19:28:40.075: 	bitrate:      0
+19:28:40.075: 	cqp:          23
+19:28:40.075: 	keyint:       250
+19:28:40.075: 	preset:       hq
+19:28:40.075: 	profile:      high
+19:28:40.075: 	width:        1920
+19:28:40.075: 	height:       1080
+19:28:40.075: 	2-pass:       false
+19:28:40.075: 	b-frames:     2
+19:28:40.075: 	psycho-aq:    1
+19:28:40.075: 	GPU:          0
+19:28:40.075: 
+19:28:40.331: libfdk_aac encoder created
+19:28:40.331: libfdk_aac bitrate: 192, channels: 2
+19:28:40.339: ==== Recording Start ===============================================
+19:28:40.339: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gisbi/videos/2022-09-05_19-28-40.mp4'...
+19:28:49.778: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gisbi/videos/2022-09-05_19-28-40.mp4' stopped
+19:28:49.778: Output 'simple_file_output': stopping
+19:28:49.778: Output 'simple_file_output': Total frames output: 531
+19:28:49.778: Output 'simple_file_output': Total drawn frames: 566
+19:28:49.778: ==== Recording Stop ================================================
+19:28:49.954: libfdk_aac encoder destroyed

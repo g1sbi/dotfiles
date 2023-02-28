@@ -1,0 +1,184 @@
+19:34:35.791: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+19:34:35.791: CPU Speed: 3939.108MHz
+19:34:35.792: Physical Cores: 6, Logical Cores: 12
+19:34:35.792: Physical Memory: 32043MB Total, 2891MB Free
+19:34:35.792: Kernel Version: Linux 5.19.5-arch1-1
+19:34:35.792: Distribution: "Arch Linux" Unknown
+19:34:35.792: Session Type: tty
+19:34:35.792: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:34:35.793: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+19:34:35.793: Portable mode: false
+19:34:35.860: OBS 27.2.4-2 (linux)
+19:34:35.860: ---------------------------------
+19:34:35.861: ---------------------------------
+19:34:35.861: audio settings reset:
+19:34:35.861: 	samples per sec: 48000
+19:34:35.861: 	speakers:        2
+19:34:35.863: ---------------------------------
+19:34:35.863: Initializing OpenGL...
+19:34:35.934: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+19:34:35.934: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.65.01, shading language 3.30 NVIDIA via Cg compiler
+19:34:35.980: ---------------------------------
+19:34:35.980: video settings reset:
+19:34:35.980: 	base resolution:   2560x1440
+19:34:35.980: 	output resolution: 1920x1080
+19:34:35.980: 	downscale filter:  Bicubic
+19:34:35.980: 	fps:               60/1
+19:34:35.980: 	format:            NV12
+19:34:35.980: 	YUV mode:          709/Partial
+19:34:35.981: NV12 texture support not available
+19:34:36.005: Audio monitoring device:
+19:34:36.005: 	name: Default
+19:34:36.005: 	id: default
+19:34:36.005: ---------------------------------
+19:34:36.008: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:34:36.009: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:34:36.081: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:34:36.081: No blackmagic support
+19:34:36.090: v4l2loopback not installed, virtual camera disabled
+19:34:36.099: NVENC supported
+19:34:36.099: FFMPEG VAAPI supported
+19:34:36.109: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+19:34:36.109: 
+19:34:36.109: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+19:34:36.110: ---------------------------------
+19:34:36.110:   Loaded Modules:
+19:34:36.110:     text-freetype2.so
+19:34:36.110:     rtmp-services.so
+19:34:36.110:     obs-x264.so
+19:34:36.110:     obs-transitions.so
+19:34:36.110:     obs-outputs.so
+19:34:36.110:     obs-libfdk.so
+19:34:36.110:     obs-filters.so
+19:34:36.110:     obs-ffmpeg.so
+19:34:36.110:     linux-v4l2.so
+19:34:36.110:     linux-pulseaudio.so
+19:34:36.110:     linux-jack.so
+19:34:36.110:     linux-decklink.so
+19:34:36.110:     linux-capture.so
+19:34:36.110:     linux-alsa.so
+19:34:36.110:     image-source.so
+19:34:36.110:     frontend-tools.so
+19:34:36.110:     decklink-ouput-ui.so
+19:34:36.110:     decklink-captions.so
+19:34:36.110: ---------------------------------
+19:34:36.110: ==== Startup complete ===============================================
+19:34:36.135: All scene data cleared
+19:34:36.135: ------------------------------------------------
+19:34:36.138: pulse-input: Server name: 'pulseaudio 16.1'
+19:34:36.138: pulse-input: Audio format: s16le, 44100 Hz, 8 channels
+19:34:36.138: pulse-input: Started recording from 'alsa_output.usb-Sennheiser_GSX_1000_Main_Audio_5698800406000510-00.analog-output-surround71.monitor'
+19:34:36.138: [Loaded global audio device]: 'Desktop Audio'
+19:34:36.138: pulse-input: Server name: 'pulseaudio 16.1'
+19:34:36.138: pulse-input: Audio format: s16le, 16000 Hz, 1 channels
+19:34:36.138: pulse-input: Started recording from 'alsa_input.usb-Sennheiser_GSX_1000_Main_Audio_5698800406000510-00.analog-input'
+19:34:36.138: [Loaded global audio device]: 'Mic/Aux'
+19:34:36.139: xshm-input: Geometry 2560x1440 @ 0,0
+19:34:36.139: Switched to scene 'Scene'
+19:34:36.139: ------------------------------------------------
+19:34:36.139: Loaded scenes:
+19:34:36.139: - scene 'Scene':
+19:34:36.139:     - source: 'Screen Capture (XSHM)' (xshm_input)
+19:34:36.139: ------------------------------------------------
+19:34:36.698: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:34:36.698: 
+19:35:05.659: ---------------------------------
+19:35:05.659: [NVENC encoder: 'simple_h264_recording'] settings:
+19:35:05.659: 	rate_control: CQP
+19:35:05.659: 	bitrate:      0
+19:35:05.659: 	cqp:          23
+19:35:05.659: 	keyint:       250
+19:35:05.659: 	preset:       hq
+19:35:05.659: 	profile:      high
+19:35:05.659: 	width:        1920
+19:35:05.659: 	height:       1080
+19:35:05.659: 	2-pass:       false
+19:35:05.659: 	b-frames:     2
+19:35:05.659: 	psycho-aq:    1
+19:35:05.659: 	GPU:          0
+19:35:05.659: 
+19:35:05.864: libfdk_aac encoder created
+19:35:05.864: libfdk_aac bitrate: 192, channels: 2
+19:35:05.870: ==== Recording Start ===============================================
+19:35:05.870: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gisbi/videos/2022-09-02_19-35-05.mp4'...
+19:35:17.461: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gisbi/videos/2022-09-02_19-35-05.mp4' stopped
+19:35:17.461: Output 'simple_file_output': stopping
+19:35:17.461: Output 'simple_file_output': Total frames output: 660
+19:35:17.461: Output 'simple_file_output': Total drawn frames: 695
+19:35:17.461: ==== Recording Stop ================================================
+19:35:17.641: libfdk_aac encoder destroyed
+19:37:05.998: ---------------------------------
+19:37:05.998: [NVENC encoder: 'simple_h264_recording'] settings:
+19:37:05.998: 	rate_control: CQP
+19:37:05.998: 	bitrate:      0
+19:37:05.998: 	cqp:          23
+19:37:05.998: 	keyint:       250
+19:37:05.998: 	preset:       hq
+19:37:05.998: 	profile:      high
+19:37:05.998: 	width:        1920
+19:37:05.998: 	height:       1080
+19:37:05.998: 	2-pass:       false
+19:37:05.998: 	b-frames:     2
+19:37:05.998: 	psycho-aq:    1
+19:37:05.998: 	GPU:          0
+19:37:05.998: 
+19:37:06.178: libfdk_aac encoder created
+19:37:06.178: libfdk_aac bitrate: 192, channels: 2
+19:37:06.180: ==== Recording Start ===============================================
+19:37:06.180: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gisbi/videos/2022-09-02_19-37-05.mp4'...
+19:37:15.822: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gisbi/videos/2022-09-02_19-37-05.mp4' stopped
+19:37:15.822: Output 'simple_file_output': stopping
+19:37:15.822: Output 'simple_file_output': Total frames output: 543
+19:37:15.823: Output 'simple_file_output': Total drawn frames: 579
+19:37:15.823: ==== Recording Stop ================================================
+19:37:16.020: libfdk_aac encoder destroyed
+19:37:29.832: ---------------------------------
+19:37:29.832: [NVENC encoder: 'simple_h264_recording'] settings:
+19:37:29.832: 	rate_control: CQP
+19:37:29.832: 	bitrate:      0
+19:37:29.832: 	cqp:          23
+19:37:29.832: 	keyint:       250
+19:37:29.832: 	preset:       hq
+19:37:29.832: 	profile:      high
+19:37:29.832: 	width:        1920
+19:37:29.832: 	height:       1080
+19:37:29.832: 	2-pass:       false
+19:37:29.832: 	b-frames:     2
+19:37:29.832: 	psycho-aq:    1
+19:37:29.832: 	GPU:          0
+19:37:29.832: 
+19:37:30.030: libfdk_aac encoder created
+19:37:30.030: libfdk_aac bitrate: 192, channels: 2
+19:37:30.032: ==== Recording Start ===============================================
+19:37:30.032: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gisbi/videos/2022-09-02_19-37-29.mp4'...
+19:37:35.389: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gisbi/videos/2022-09-02_19-37-29.mp4' stopped
+19:37:35.389: Output 'simple_file_output': stopping
+19:37:35.389: Output 'simple_file_output': Total frames output: 286
+19:37:35.389: Output 'simple_file_output': Total drawn frames: 321
+19:37:35.389: ==== Recording Stop ================================================
+19:37:35.574: libfdk_aac encoder destroyed
+19:37:58.972: ---------------------------------
+19:37:58.972: [NVENC encoder: 'simple_h264_recording'] settings:
+19:37:58.972: 	rate_control: CQP
+19:37:58.972: 	bitrate:      0
+19:37:58.972: 	cqp:          23
+19:37:58.972: 	keyint:       250
+19:37:58.972: 	preset:       hq
+19:37:58.972: 	profile:      high
+19:37:58.972: 	width:        1920
+19:37:58.972: 	height:       1080
+19:37:58.972: 	2-pass:       false
+19:37:58.972: 	b-frames:     2
+19:37:58.972: 	psycho-aq:    1
+19:37:58.972: 	GPU:          0
+19:37:58.972: 
+19:37:59.160: libfdk_aac encoder created
+19:37:59.160: libfdk_aac bitrate: 192, channels: 2
+19:37:59.161: ==== Recording Start ===============================================
+19:37:59.161: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gisbi/videos/2022-09-02_19-37-58.mp4'...
+19:38:10.490: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gisbi/videos/2022-09-02_19-37-58.mp4' stopped
+19:38:10.491: Output 'simple_file_output': stopping
+19:38:10.491: Output 'simple_file_output': Total frames output: 644
+19:38:10.491: Output 'simple_file_output': Total drawn frames: 680
+19:38:10.491: ==== Recording Stop ================================================
+19:38:10.676: libfdk_aac encoder destroyed

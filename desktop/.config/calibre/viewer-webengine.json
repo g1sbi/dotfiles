@@ -1,0 +1,51 @@
+{
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "controls_help_shown_count": 1,
+    "current_color_scheme": "black",
+    "footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "override_book_colors": "never",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Daniel C. Dennett"
+        ],
+        "key": "/home/gisbi/downloads/Daniel_C._Dennett_-_Intuition_Pumps_And_Other_Tools_for_Thinking_2013_W._W._Norton__Company_-_libgen.lc.epub",
+        "pathtoebook": "/home/gisbi/downloads/Daniel_C._Dennett_-_Intuition_Pumps_And_Other_Tools_for_Thinking_2013_W._W._Norton__Company_-_libgen.lc.epub",
+        "timestamp": "2022-09-28T21:03:14.125Z",
+        "title": "Intuition Pumps And Other Tools for Thinking"
+      }
+    ]
+  }
+}

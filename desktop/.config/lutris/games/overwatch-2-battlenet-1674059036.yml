@@ -1,0 +1,74 @@
+game:
+  arch: win64
+  args: --exec="launch Pro"
+  exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+  prefix: /home/gisbi/storage/lutris/battlenet
+game_slug: overwatch-2
+name: Overwatch 2
+requires: blizzard-battlenet-standard
+script:
+  files:
+  - cache-updater: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/overwatch/state-cache-update.sh
+  - dxvkcache: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/overwatch/Overwatch.tar.xz
+  game:
+    arch: win64
+    args: --exec="launch Pro"
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+    prefix: $GAMEDIR
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: dxvkcache
+  - write_file:
+      content: '#!/bin/bash
+
+        date="$(wget --server-response --spider https://lutris.nyc3.cdn.digitaloceanspaces.com/games/overwatch/Overwatch.tar.xz
+        2>&1 | sed -n "s/  Last-Modified: //p")"
+
+        date="$(date -d "$date" +%s)"
+
+        echo "$date" > ./state-cache-merge/.state-cache-timestamp'
+      file: $GAMEDIR/timestamp.sh
+  - merge:
+      dst: $GAMEDIR/state-cache-merge
+      src: cache-updater
+  - chmodx: $GAMEDIR/state-cache-merge/state-cache-update.sh
+  - chmodx: $GAMEDIR/timestamp.sh
+  - execute:
+      file: $GAMEDIR/timestamp.sh
+  - move:
+      dst: $CACHE
+      src: $GAMEDIR/timestamp.sh
+  requires: blizzard-battlenet-standard
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      __GL_DXVK_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+    manual_command: $GAMEDIR/state-cache-merge/state-cache-update.sh
+  wine:
+    dxvk: true
+    esync: true
+    version: lutris-GE-Proton7-35-x86_64
+slug: overwatch-2-battlenet
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/gisbi/storage/lutris/battlenet/dxvk.conf
+    DXVK_STATE_CACHE_PATH: /home/gisbi/storage/lutris/battlenet
+    STAGING_SHARED_MEMORY: '1'
+    __GL_DXVK_OPTIMIZATIONS: '1'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/gisbi/storage/lutris/battlenet
+  exclude_processes: Agent.exe "Battle.net Helper.exe"
+  manual_command: /home/gisbi/storage/lutris/battlenet/state-cache-merge/state-cache-update.sh
+variables: {}
+version: Battle.net
+wine:
+  dxvk: true
+  esync: true
+  version: lutris-GE-Proton7-35-x86_64
+year: 2022

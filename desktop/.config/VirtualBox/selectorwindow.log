@@ -1,0 +1,20 @@
+00:00:00.246868 VirtualBox GUI VM Selector Window 6.1.36 r152435 linux.amd64 (Jul 21 2022 10:08:57) release log
+00:00:00.246869 Log opened 2022-08-02T21:12:28.453112000Z
+00:00:00.246869 Build Type: release
+00:00:00.246870 OS Product: Linux
+00:00:00.246870 OS Release: 5.18.15-arch1-2
+00:00:00.246871 OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 01 Aug 2022 18:58:16 +0000
+00:00:00.246880 DMI Product Name: B450 I AORUS PRO WIFI
+00:00:00.246884 DMI Product Version: Default string
+00:00:00.246886 Firmware type: UEFI
+00:00:00.246940 Secure Boot: Disabled
+00:00:00.246958 Host RAM: 32042MB (31.2GB) total, 31336MB (30.6GB) available
+00:00:00.246959 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.246960 Process ID: 1130
+00:00:00.246960 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.246973 Qt version: 5.15.5
+00:00:00.270105 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.564259 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 12x40 x 1304x1352
+00:00:00.577771 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1336x40 x 1204x693
+00:00:00.581188 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:27.602030 GUI: UIMediumEnumerator: Medium-enumeration finished!
