@@ -1,8 +1,0 @@
-2023/01/29-18:34:38.487 144e8 Reusing MANIFEST /home/gisbi/.config/Ledger Live/Local Storage/leveldb/MANIFEST-000001
-2023/01/29-18:34:38.487 144e8 Recovering log #63
-2023/01/29-18:34:38.493 144e8 Level-0 table #67: started
-2023/01/29-18:34:38.504 144e8 Level-0 table #67: 1612339 bytes OK
-2023/01/29-18:34:38.506 144e8 Delete type=0 #63
-2023/01/29-18:48:51.159 14f7d Level-0 table #70: started
-2023/01/29-18:48:51.169 14f7d Level-0 table #70: 1618679 bytes OK
-2023/01/29-18:48:51.170 14f7d Delete type=0 #68

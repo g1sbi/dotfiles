@@ -1,4 +1,0 @@
-system:
-  env:
-    WINEFSYNC: '1'
-  game_path: ~/storage/lutris

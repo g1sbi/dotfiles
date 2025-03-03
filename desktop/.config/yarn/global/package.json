@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@vitejs/create-app": "^2.5.2",
-    "create-svelte": "^3.0.4",
-    "create-vite": "^4.1.0"
-  }
-}
